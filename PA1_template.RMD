@@ -1,9 +1,17 @@
-Course project 1: summary of activity
-==========================================
+    ---  
+    title: "RepData_PeerAssessment1"  
+    author: "Wenjing Guo"  
+    date: "`r format(Sys.Date())`"
+    output:  
+      html_document:  
+        keep_md: true  
+    ---  
+
 
 ```{r setup}
 library(knitr)
 opts_chunk$set(cache = TRUE, echo = TRUE)
+fig.path='figure/'
 ```
 
 
