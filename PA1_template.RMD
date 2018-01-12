@@ -77,7 +77,7 @@ newstepsmedian <- median(newsumsteps, na.rm = TRUE)
 ```
 The mean number of steps taken each day is `r newstepsmean`, The median number is `r newstepsmedian`. In the first part, the mean number is `r stepsmean` and the median number is `r stepsmedian`. The mean value keeps the same, but the median number changes a little bit.
 
-#differences in activity patterns between weekdays and weekends
+# differences in activity patterns between weekdays and weekends
 
 ```{r}
 library(ggplot2)
