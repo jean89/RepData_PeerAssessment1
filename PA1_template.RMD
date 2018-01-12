@@ -1,11 +1,4 @@
-    ---  
-    title: "RepData_PeerAssessment1"  
-    author: "Wenjing Guo"  
-    date: "`r format(Sys.Date())`"
-    output:  
-      html_document:  
-        keep_md: true  
-    ---  
+# RepData_PeerAssessment1
 
 
 ```{r setup}
